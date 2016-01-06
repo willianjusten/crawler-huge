@@ -1,0 +1,26 @@
+{
+  "name": "crawler-huge",
+  "version": "1.0.0",
+  "description": "A simple crawler that creates a json with urls and take screenshots.",
+  "main": "crawlerHuge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crawler",
+    "node"
+  ],
+  "author": "Willian Justen de Vasconcellos <willianjustenqui@gmail.com> (http://willianjusten.com.br/)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "jsonfile": "^2.2.3",
+    "lodash": "^3.10.1",
+    "pageres": "^3.0.2",
+    "request": "^2.67.0",
+    "robots-parser": "^1.0.0",
+    "simplecrawler": "^0.5.4",
+    "url-parse": "^1.0.5"
+  }
+}
